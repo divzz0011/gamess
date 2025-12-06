@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Suite</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Web Games</h1>
+    </header>
+
+    <nav id="game-nav">
+        <button onclick="showGame('home')" class="nav-button">Home</button>
+        <button onclick="showGame('hangman')" class="nav-button">1. Hangman</button>
+        <button onclick="showGame('tictactoe')" class="nav-button">2. Tic-Tac-Toe</button>
+        <button onclick="showGame('guessnumber')" class="nav-button">3. Tebak Angka</button>
+        <button onclick="showGame('rps')" class="nav-button">4. B-G-K</button>
+        <button onclick="showGame('memorymatch')" class="nav-button">5. Memory Match</button>
+        <button onclick="showGame('difference')" class="nav-button">6. Perbedaan</button>
+        <button onclick="showGame('mathquiz')" class="nav-button">7. Kuis MTK</button>
+        <button onclick="showGame('riddle')" class="nav-button">8. Teka-teki</button>
+        <button onclick="showGame('higherlower')" class="nav-button">9. Tinggi/Rendah</button>
+        <button onclick="showGame('typingtest')" class="nav-button">10. Tes Ketik</button>
+    </nav>
+
+    <main id="game-container">
+        </main>
+
+
+
+
+
+        <button id="developer-info-btn" class="developer-button">
+            <i class="fas fa-code"></i> Developer Info
+        </button>
+        
+        <div id="developer-info-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2><i class="fas fa-user-circle"></i> Tentang Developer</h2>
+                <p>Proyek ini dikembangkan oleh Divzz And Team.</p>
+                <p><strong>Versi:</strong> 1.0.0</p>
+                
+                <hr>
+                
+                <h3><i class="fas fa-link"></i> Kontak & Portofolio</h3>
+                
+                <p>
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 
+                    <a href="https://wa.me/6281818833633?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20website%20ini." 
+                       target="_blank" class="link-whatsapp">
+                        Hubungi via WA
+                    </a>
+                </p>
+                
+                <p>
+                    <i class="fab fa-instagram"></i> Instagram: 
+                    <a href="https://www.instagram.com/divzz_neverlouse/" target="_blank" class="link-instagram">
+                        @Divzz
+                    </a>
+                </p>
+                
+                <p>
+                    <i class="fab fa-github"></i> GitHub: 
+                    <a href="URL_GITHUB_ANDA" target="_blank">
+                        Repo Proyek
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-briefcase"></i> Portofolio: 
+                    <a href="URL_PORTFOLIO_ANDA" target="_blank">
+                        Lihat Karya
+                    </a>
+                </p>
+        
+                <hr>
+        
+                <h3><i class="fas fa-tools"></i> Keahlian </h3>
+                <ul style="list-style: none; padding: 0; text-align: center;">
+                    <li><i class="fab fa-html5"></i> Frontend Developer </li>
+                    <li><i class="fab fa-css3-alt"></i> Web Developer </li>
+                    <li><i class="fab fa-js"></i> Software Engginer </li>
+                    <li></li>
+                </ul>
+        
+                <p style="font-size: 0.8em; color: #666; margin-top: 15px;">Dibuat pada: **06 Desember 2025**</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2025 Divzz Projects</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
